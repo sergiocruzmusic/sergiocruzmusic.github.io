@@ -1,11 +1,53 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sergiocruzmusic</title>
-</head>
-<body>
-    <p>- sergiocruzmusic.com.br -</p>
-</body>
-</html>
+---
+layout: default
+title: "Sergio Cruz"
+---
+
+<main class="wrapper">
+    <section id="home" class="section hero">
+        <nav class="top-nav">
+            <a href="#selected-work">Selected Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="title-block">
+            <img src="/assets/img/logo.png" alt="Sergio Cruz Logo" width="80" />
+            <h1>SERGIO CRUZ</h1>
+            <h2>MUSIC PRODUCER</h2>
+        </div>
+    </section>
+
+    <section id="selected-work" class="section selected">
+        <h2>SELECTED WORK</h2>
+        <div class="video-list">
+            {% for video in site.data.videos %}
+            <article class="video-card">
+                <div class="video-embed">
+                    <iframe src="https://www.youtube.com/embed/{{ video.youtube_id }}" title="{{ video.title }}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div class="video-meta">
+                    <h3>{{ video.title }}</h3>
+                    <p>{{ video.description }}</p>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>CONTACT</h2>
+        <div class="contact-body">
+            <div class="contact-links">
+                {% for link in site.data.contact.links %}
+                <a href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.label }}</a>
+                {% endfor %}
+            </div>
+            {% if site.data.contact.social %}
+            <div class="footer-social">
+                {% for social in site.data.contact.social %}
+                <a href="{{ social.url }}" target="_blank" rel="noreferrer" aria-label="{{ social.label }}">{{ social.icon }}</a>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </section>
+</main>

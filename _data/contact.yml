@@ -1,0 +1,17 @@
+links:
+  - label: sergiocruz@example.com
+    url: "mailto:sergiocruz@example.com"
+  - label: WhatsApp
+    url: "https://wa.me/5500000000000"
+  - label: Spotify
+    url: "https://open.spotify.com/"
+  - label: YouTube
+    url: "https://www.youtube.com/"
+
+social:
+  - label: Instagram
+    url: "https://instagram.com/"
+    icon: "IG"
+  - label: YouTube
+    url: "https://youtube.com/"
+    icon: "YT"

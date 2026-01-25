@@ -1,0 +1,9 @@
+title: "Sergio Cruz"
+description: "Music Producer"
+baseurl: ""
+url: "https://sergiocruzmusic.github.io"
+theme: null
+markdown: kramdown
+collections:
+  posts:
+    output: false

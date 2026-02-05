@@ -1,17 +1,13 @@
 links:
-  - label: sergiocruz@example.com
-    url: "mailto:sergiocruz@example.com"
-  - label: WhatsApp
-    url: "https://wa.me/5500000000000"
-  - label: Spotify
-    url: "https://open.spotify.com/"
+  - label: sergiocruzmusic@gmail.com
+    url: "mailto:sergiocruzmusic@gmail.com"
   - label: YouTube
-    url: "https://www.youtube.com/"
+    url: "https://www.youtube.com/@sergiocruzmusic"
 
 social:
   - label: Instagram
-    url: "https://instagram.com/"
+    url: "https://www.instagram.com/sergiocruzing/"
     icon: "IG"
   - label: YouTube
-    url: "https://youtube.com/"
+    url: "https://www.youtube.com/@sergiocruzmusic"
     icon: "YT"

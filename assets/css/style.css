@@ -15,7 +15,11 @@ html {
 }
 
 body {
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
   background: var(--white);
   color: var(--black);
 }
@@ -141,7 +145,11 @@ nav.top-nav {
   font-size: clamp(32px, 4vw, 48px);
   margin-bottom: 12px;
   font-size: 20px;
-  font-family: "Inter", system-ui, -apple-system, sans-serif !important;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif !important;
 }
 
 .video-meta p {

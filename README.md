@@ -47,3 +47,6 @@ Once you have finished editing a file:
 3. Click the green **Commit changes** button to confirm.
 
 **That's it!** The website will automatically update with your changes shortly (usually within a minute or two).
+
+---
+[https://www.sergiocruzmusic.com.br](sergiocruzmusic.com.br)

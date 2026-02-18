@@ -49,4 +49,4 @@ Once you have finished editing a file:
 **That's it!** The website will automatically update with your changes shortly (usually within a minute or two).
 
 ---
-[https://www.sergiocruzmusic.com.br](sergiocruzmusic.com.br)
+[www.sergiocruzmusic.com.br](https://www.sergiocruzmusic.com.br)

@@ -38,17 +38,12 @@ ul {
 }
 
 nav.top-nav {
-  position: absolute;
-  top: 45px;
-  right: 45px;
   display: flex;
-  flex-direction: column;
-  gap: 4px;
-  z-index: 1;
+  flex-direction: row;
+  justify-content: space-between;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 0.5px;
-  text-align: right;
 }
 
 .section {
@@ -62,12 +57,15 @@ nav.top-nav {
   position: relative;
   min-height: 100vh;
   justify-content: flex-end;
-  background: var(--white);
   color: var(--black);
+  background-image: url("/assets/img/background.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .section.hero .title-block {
   margin-bottom: 0;
+  width: fit-content;
 }
 
 .section.hero h1,
@@ -91,7 +89,7 @@ nav.top-nav {
 }
 
 .title-block img {
-  height: 80px;
+  height: 120px;
   width: auto;
   display: block;
 }
@@ -174,7 +172,7 @@ nav.top-nav {
 .contact-body {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 0px;
 }
 
 .contact-links {
@@ -197,13 +195,16 @@ nav.top-nav {
 }
 
 .footer-social a {
-  font-size: 18px;
-  border: 1px solid currentColor;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: grid;
-  place-items: center;
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
+.footer-social img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 @media (max-width: 768px) {

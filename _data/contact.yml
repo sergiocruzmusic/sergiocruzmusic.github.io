@@ -1,13 +1,11 @@
 links:
   - label: sergiocruzmusic@gmail.com
     url: "mailto:sergiocruzmusic@gmail.com"
-  - label: YouTube
-    url: "https://www.youtube.com/@sergiocruzmusic"
-
+    
 social:
   - label: Instagram
     url: "https://www.instagram.com/sergiocruzing/"
-    icon: "IG"
+    icon: "/assets/img/icon_instagram.png"
   - label: YouTube
     url: "https://www.youtube.com/@sergiocruzmusic"
-    icon: "YT"
+    icon: "/assets/img/icon_youtube.png"

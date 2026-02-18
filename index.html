@@ -5,14 +5,13 @@ title: "Sergio Cruz"
 
 <main class="wrapper">
     <section id="home" class="section hero">
-        <nav class="top-nav">
-            <a href="#selected-work">Selected Work</a>
-            <a href="#contact">Contact</a>
-        </nav>
         <div class="title-block">
-            <img src="/assets/img/logo.png" alt="Sergio Cruz Logo" width="80" />
+            <img src="/assets/img/logo.png" alt="Sergio Cruz Logo" />
             <h1>SERGIO CRUZ</h1>
-            <h2>MUSIC PRODUCER</h2>
+            <nav class="top-nav">
+                <a href="#selected-work">Selected Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
     </section>
 
@@ -44,7 +43,9 @@ title: "Sergio Cruz"
             {% if site.data.contact.social %}
             <div class="footer-social">
                 {% for social in site.data.contact.social %}
-                <a href="{{ social.url }}" target="_blank" rel="noreferrer" aria-label="{{ social.label }}">{{ social.icon }}</a>
+                <a href="{{ social.url }}" target="_blank" rel="noreferrer" aria-label="{{ social.label }}">
+                    <img src="{{ social.icon }}" alt="{{ social.label }}" />
+                </a>
                 {% endfor %}
             </div>
             {% endif %}

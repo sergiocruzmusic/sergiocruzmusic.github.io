@@ -129,8 +129,8 @@ nav.top-nav {
 }
 
 .section.selected {
-  background: var(--black);
-  color: var(--white);
+  background: var(--white);
+  color: var(--black);
   padding: 64px 48px;
   gap: 120px;
 }
@@ -182,7 +182,7 @@ nav.top-nav {
 .video-meta p {
   font-size: 16px;
   line-height: 1.6;
-  color: #e5e5e5;
+  color: var(--black);
 }
 
 .section.contact {
@@ -191,6 +191,9 @@ nav.top-nav {
   align-items: flex-start;
   background: var(--white);
   color: var(--black);
+  background-image: url("/assets/img/background_contact.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .section.contact h2 {

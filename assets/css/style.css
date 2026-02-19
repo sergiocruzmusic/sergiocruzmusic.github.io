@@ -211,24 +211,26 @@ nav.top-nav {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .contact-links a {
+  text-decoration: none;
   padding-bottom: 4px;
-  border-bottom: 2px solid currentColor;
   width: fit-content;
+  padding-left: 10px;
 }
 
 .footer-social {
-  margin-top: 48px;
+  margin-top: 20px;
   display: flex;
   gap: 16px;
 }
 
 .footer-social a {
-  width: 32px;
-  height: 32px;
+  width: 64px;
+  height: 64px;
   display: block;
 }
 

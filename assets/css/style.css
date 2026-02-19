@@ -68,6 +68,35 @@ nav.top-nav {
   width: fit-content;
 }
 
+.hero-categories {
+  position: absolute;
+  top: calc(50% - 200px);
+  right: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 12vw;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--black);
+  z-index: 10;
+}
+
+@media (min-width: 1024px) {
+  .hero-categories {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-categories {
+    font-size: 60px;
+    top: 24px;
+    right: 24px;
+  }
+}
+
 .section.hero h1,
 .section.hero h2,
 .section.contact h2,
